@@ -46,7 +46,7 @@ a {
     color: #fff; 
 }
 a:hover {
-    font-weight:bold; 
+    font-weight: bold; 
     color: #33adff;
 }
 
@@ -76,12 +76,6 @@ a:hover {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
-}
-
-/* Custom Horizontal Rule */
-
-hr.small {
-    max-width: 100px;
 }
 
 /* Side Menu */
@@ -126,6 +120,7 @@ hr.small {
     text-decoration: none;
     color: #fff;
     background: rgba(255,255,255,0.2);
+    font-weight: normal;
 }
 
 .sidebar-nav li a:active,
