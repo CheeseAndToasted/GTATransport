@@ -21,8 +21,18 @@ body {
     text-align: center;
     vertical-align: middle;
 }
-
 .text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+.text-center {
+    display: table-cell;
+    text-align: center;
+}
+
+.text-center h1 {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
@@ -162,20 +172,38 @@ hr.small {
     -o-background-size: cover;
 }
 
+.logo {
+    height: 100px;
+    margin-top: 150px; 
+}
+
 /* Banner */
 
 .banner {
     padding: 50px 0;
+    background-color: #000;
+}
+
+.banner h2 {
+    color: #ff0000; 
+}
+
+.banner p {
+    color: #fff; 
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
+    background-color: #800000;
 }
-
 .service-item {
     margin-bottom: 30px;
+}
+
+.fa-stack-1x {
+    color: #b30000;
 }
 
 /* Callout */
@@ -183,13 +211,17 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
-    color: #fff;
+    height: 500px;
+    color: #fff; 
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.callout h1 {
+    text-shadow: 4px 4px 3px #000000;
 }
 
 /* Map */
