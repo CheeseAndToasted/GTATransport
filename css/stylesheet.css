@@ -10,6 +10,9 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color: #800000;
+    color: white; 
+    font-size: 16px;
 }
 
 body {
@@ -37,6 +40,14 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+
+a {
+    color: #fff; 
+}
+a:hover {
+    font-weight:bold; 
+    color: #33adff;
 }
 
 /* Custom Button Styles */
@@ -170,11 +181,23 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: #1a1a1a;
 }
 
 .logo {
-    height: 100px;
-    margin-top: 150px; 
+    height: 150px;
+    margin-top: 100px; 
+}
+.moving-btn, .moving-btn:hover {
+    border: 4px solid #ff0000;
+    border-radius: 10px; 
+    font-size: 1.5em; 
+}
+.moving-btn{
+    background: #404040;
+}
+.moving-btn:hover {
+    background: #000; 
 }
 
 /* Banner */
@@ -195,7 +218,7 @@ hr.small {
 /* Services */
 
 .services {
-    padding: 50px 0;
+    padding: 50px;
     background-color: #800000;
 }
 .service-item {
@@ -224,6 +247,16 @@ hr.small {
     text-shadow: 4px 4px 3px #000000;
 }
 
+/* About */
+
+.about {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+/* Contact */ 
+
+
 /* Map */
 
 .map {
@@ -239,5 +272,5 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    background-color: #000;
 }
