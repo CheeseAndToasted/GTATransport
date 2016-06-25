@@ -207,7 +207,8 @@ a:hover {
 }
 
 .banner h2 {
-    color: #ff0000; 
+    color: #ff0000;
+    display: inline-block;
 }
 
 .banner p {
@@ -271,6 +272,7 @@ a:hover {
 
 footer {
     background-color: #000;
+    padding-top: 30px;
 }
 
 /* Mobile Settings */ 
@@ -281,5 +283,8 @@ footer {
     }
     .callout h1 {
         font-size: 28px;
+    }
+    .logo {
+        margin-top: 10px;
     }
 }
