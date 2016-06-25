@@ -260,7 +260,9 @@ a:hover {
 }
 
 /* Contact */ 
-
+.contact {
+    padding-bottom: 30px; 
+}
 
 /* Map */
 
