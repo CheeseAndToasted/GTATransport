@@ -179,6 +179,10 @@ a:hover {
     color: #1a1a1a;
 }
 
+.header-overlay {
+        background-color: rgba(255,255,255,0.35); 
+    }
+
 .logo {
     height: 150px;
     margin-top: 100px; 
@@ -240,6 +244,11 @@ a:hover {
 
 .callout h1 {
     text-shadow: 4px 4px 3px #000000;
+    font-size: 5em; 
+}
+
+.callout-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* About */
@@ -258,14 +267,19 @@ a:hover {
     height: 500px;
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
 /* Footer */
 
 footer {
     background-color: #000;
+}
+
+/* Mobile Settings */ 
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+    .callout h1 {
+        font-size: 28px;
+    }
 }
