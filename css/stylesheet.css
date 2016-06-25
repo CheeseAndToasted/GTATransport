@@ -261,7 +261,11 @@ a:hover {
 
 /* Contact */ 
 .contact {
-    padding-bottom: 30px; 
+    text-align: center;
+}
+
+.links {
+    padding-bottom: 30px;
 }
 
 /* Map */
@@ -275,6 +279,7 @@ a:hover {
 footer {
     background-color: #000;
     padding-top: 30px;
+    text-align: center;
 }
 
 /* Mobile Settings */ 
